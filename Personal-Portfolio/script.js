@@ -1,0 +1,2 @@
+// Manish()
+console.log("Manish");

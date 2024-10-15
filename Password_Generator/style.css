@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : "Poppins", sans-serif;
+    /* background-color: rgb(31, 31, 31); */
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.card{
+    background-color: rgb(31, 31, 31);
+    color: white ;
+    width: 90%;
+    max-width: 450px;
+    padding: 50px 50px;
+    border-radius: 30px;
+}
+.card h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#submit-Button{
+    width:100% ;
+}
+#Password-Text{
+    width:100%;
+    color: white;
+    border-radius: .3rem;
+    padding: .4rem;
+    border: none;
+}
+#copy-Button{
+    position: absolute;
+    right: 3.4%;
+    top: 11%;
+    border-radius: .3rem;
+    padding: 8.5px 15px;
+    border: none;
+  
+}
+#copy-Button:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+.Password-BOX{
+    position: relative;
+    padding: 5px 12px;
+   
+   
+}
+input , label{
+    font-size: 1rem;
+}
+input,button{
+    font-weight: 500;
+    cursor: pointer;
+}
+#submit-Button{
+    font-size: 1.8rem;
+    border-radius: 15px;
+    border: none;
+}
+
+#submit-Button:hover{
+    background: rgb(61, 61, 61);
+    color: white;
+}
+span{
+    font-weight: 500;
+}
